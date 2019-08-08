@@ -8,7 +8,7 @@ def map(x)
   return new
 
 end
-map([1, 2, 3, -9]){|n| n * -1}
+(map([1, 2, 3, -9]){|n| n * n})
 
 def reduce(x, starting_point = nil)
   if starting_point
@@ -25,3 +25,4 @@ def reduce(x, starting_point = nil)
   end
   return var_x
 end
+(map([1, 2, 3, -9]){|n| n * n})
