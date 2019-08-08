@@ -11,7 +11,6 @@ end
 
 
 
-
 def reduce(x, starting_point = nil)
   if starting_point
     i = 0
