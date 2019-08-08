@@ -25,4 +25,3 @@ def reduce(x, starting_point = nil)
   end
   return var_x
 end
-map([1, 2, 3, -9]){|n| n * n}
