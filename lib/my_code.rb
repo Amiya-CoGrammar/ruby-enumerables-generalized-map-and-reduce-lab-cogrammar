@@ -24,4 +24,4 @@ def reduce(x, starting_point = nil)
     i += 1
   end
   return var_x
-  end
+end
