@@ -10,6 +10,18 @@ def map(x)
 end
 map([1,2,3,-9]){|n| n * -1}
 
+def map(x)
+  new = []
+  i = 0
+  while i < x.length do
+    new.push(x[i])
+    i += 1
+  end
+  return new
+
+end
+map([1,2,3,-9]){|n| n * -1}
+
 
 
 def reduce(x, starting_point = nil)
