@@ -1,6 +1,6 @@
 def map()
   new = []
-  
+
   new.push( source_array[i] * -1 )
 
 end
