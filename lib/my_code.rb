@@ -2,7 +2,7 @@ def map(x)
   new = []
 
   while i < x.length do
-    new.push(yield (x[i]) )
+    new = x.map {|n| n * -1}
     i += 1
   end
   return new
