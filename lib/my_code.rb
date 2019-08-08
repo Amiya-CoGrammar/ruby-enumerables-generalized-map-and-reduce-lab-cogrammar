@@ -1,6 +1,6 @@
 def map(x)
   new = []
-
+  i = 0
   while i < x.length do
     new.push( x[i] * -1 )
     i += 1
