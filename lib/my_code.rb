@@ -8,7 +8,6 @@ def map(x)
   return new
 
 end
-map([1, 2, 3, -9])
 
 
 
@@ -27,4 +26,5 @@ def reduce(x, starting_point = nil)
     i += 1
   end
   return var_x
+
 end
