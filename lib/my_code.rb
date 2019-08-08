@@ -1,4 +1,4 @@
-def map(x, element)
+def map(x)
   new = []
 
   while i < x.length do
