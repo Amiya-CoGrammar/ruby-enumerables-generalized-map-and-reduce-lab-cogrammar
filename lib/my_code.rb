@@ -2,7 +2,7 @@ def map(x)
   new = []
 
   while i < x.length do
-    new = x.map
+    new.push( source_array[i] * -1 )
     i += 1
   end
   return new
