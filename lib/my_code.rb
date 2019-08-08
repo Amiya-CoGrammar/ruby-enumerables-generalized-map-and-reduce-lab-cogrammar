@@ -10,6 +10,9 @@ def map(x)
 end
 map([1, 2, 3, -9]){|n| n * n}
 
+
+
+
 def reduce(x, starting_point = nil)
   if starting_point
     i = 0
